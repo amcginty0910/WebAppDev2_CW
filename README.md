@@ -1,6 +1,7 @@
 # WebAppDev2_CW
 
 ## to run this app type node index into the terminal while inside the folder
+to log in: username: Aiden, password: password
 
 ## Added features:
 ability for organisers to log in to the system to add new classes
