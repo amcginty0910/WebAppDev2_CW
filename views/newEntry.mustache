@@ -1,0 +1,42 @@
+<html>
+<head>
+{{>header}}
+</head>
+<body class="container">
+<h2>create a new class</h2>
+    <form method="post" role="form" action="/new">
+        <div class="form-group">
+            <label for="name">name of the class</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name of Class" required>
+        </div>
+        <div class="form-group">
+            <label for="duration">duration</label>
+            <input type="text" class="form-control" id="duration" name="duration" placeholder="duration of the class" required>
+        </div>
+        <div class="form-group">
+            <label for="date">Date of the class/s</label>
+            <input type = "text" class="form-control" id="date" name="date" placeholder="enter the date" rows="3"    required>
+        </div>
+          <div class="form-group">
+            <label for="time">time of the class</label>
+            <input type = "text" class="form-control" id="time" name="time" placeholder="enter the date" rows="3"    required>
+        </div>
+        <div class="form-group">
+            <label for="description">description</label>
+            <textarea class="form-control" id="description" name="description" placeholder="enter the description" rows="3"    required>
+            </textarea>
+        </div>
+          <div class="form-group">
+            <label for="location">location of the class/s</label>
+            <input type = "text" class="form-control" id="location" name="location" placeholder="enter the location" rows="3"    required>
+        </div>
+        <div class="form-group">
+            <label for="price">price of the class/s</label>
+            <input type = "text" class="form-control" id="price" name="price" placeholder="enter the location" rows="3"    required>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Post entry" class="btn btn-primary">
+        </div>
+    </form>
+</body>
+</html>
